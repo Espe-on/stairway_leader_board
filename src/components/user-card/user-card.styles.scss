@@ -1,12 +1,13 @@
 .user-card {
   border: solid #e8ecf9;
-  border-width: 1px 0px 0px 0px ;
+  border-width: 2px 0px 0px 0px ;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 15px;
-  padding: 5px;
-  height: 25px;
+  align-items: center;
+  font-size: 20px;
+  padding: 7px;
+  height: 55px;
   &:first-child{
     border-width: 0px;
   }
