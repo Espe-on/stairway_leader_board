@@ -1,3 +1,30 @@
+#Stairway Leaderboard
+This is a small app created for Stairway's Junior Front-End tech test. 
+It is a React App which uses Typescript and SCSS. 
+It takes data from Stairways's [test API](https://www.stairwaylearning.com/api/v1/stub/leaderboard)   
+
+##Code Structure 
+This is a pure Single Page app meaning there is no need for separating out "pages". 
+Components live as sub directories of /components. 
+Inside each directory there is the main component, and the associated style sheet.  
+
+##Types and Interfaces
+Where a definition is used across the app it is stored as a type in the /models directory. 
+Otherwise, it is stored in the component which uses it.  
+
+
+##Styling
+Styling for this side is based off the Figma guidelines [here](https://www.figma.com/file/9qSLmzKSmHaTbs3PAOubUF/Dev-Test-Leaderboard?node-id=0%3A1).
+The styling works on Flexboxes meaning that it scales to the screen it is on.  
+
+#Notes on task
+If given a larger number of users from the API I would extend this app with a stepper or loader to put users on multiple leaderboard pages. 
+I would also work on handling error from the API in a more graceful way, and auto updating when the new leaderboard is published. 
+
+
+
+
+#Scripts and info
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -27,18 +54,3 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
