@@ -1,6 +1,6 @@
 .ribbon-container{
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .remaining-days-container {
@@ -17,7 +17,7 @@
 $countdown-background-color: #FFB561;
 $countdown-height: 40px;
 $countdown-width: 140px;
-$ribbon-width: $countdown-height * 0.5; // the multiplier here changes the depth of the ribbon end, a higher multiplier makes it deeper
+$ribbon-width: $countdown-height * 0.3; // the multiplier here changes the depth of the ribbon end, a higher multiplier makes it deeper
 .ribbon-body {
   height: $countdown-height;
   width: $countdown-width;
