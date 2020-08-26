@@ -1,12 +1,23 @@
 .user-card {
-  width:100%;
+  padding: 5px;
   border: solid #e8ecf9;
-  border-width: 2px 0px 0px 0px ;
+  border-width: 1px 0px 0px 0px ;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  font-size: 20px;
+  &:first-child{
+    border-width: 0px;
+  }
   &.current-user{
     background: #f2f5fc;
   }
+  span{
+    color: #29343a;
+  }
+  .user-card-position{
+    color: #a9b5cc;
+    margin-right: 5px;
+  }
+
 }

@@ -20,12 +20,14 @@ const App: FunctionComponent = () => {
 
     return (
         <div className="app">
-            <Header/>
-            {
-                isLoading
-                    ? <LoadingNotifier />
-                    : <Leaderboard profiles={leaderBoardData} />
-            }
+            <div className="page-container">
+                <Header/>
+                {
+                    isLoading
+                        ? <LoadingNotifier/>
+                        : <Leaderboard profiles={leaderBoardData}/>
+                }
+            </div>
         </div>
     )
 };

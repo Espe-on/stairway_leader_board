@@ -4,9 +4,9 @@ import "./loading-notifier.styles.scss"
 
 
 const LoadingNotifier : FunctionComponent = () => (
-    <div className="loading-notifier">
+    <p className="loading-notifier">
         Loading . . .
-    </div>
+    </p>
 )
 
 export default LoadingNotifier;
