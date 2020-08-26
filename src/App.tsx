@@ -14,9 +14,11 @@ const App: FunctionComponent = () => {
     useEffect(() => {
         getCurrentLeaderboard()
             .then((response) => setLeaderBoardData(response.profiles))
-            .then(() => setIsLoading(false))
             .catch((error) => alert(`Error Fetching Leaderboard: ${error.message}`))
     }, []);
+    useEffect(()=> {
+        setIsLoading(false)
+    }, [leaderBoardData])
 
     return (
         <div className="app">
