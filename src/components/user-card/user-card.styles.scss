@@ -1,10 +1,12 @@
 .user-card {
   width:100%;
+  border: solid #e8ecf9;
+  border-width: 2px 0px 0px 0px ;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
   &.current-user{
-    background: gray;
+    background: #f2f5fc;
   }
 }
