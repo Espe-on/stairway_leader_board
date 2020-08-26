@@ -12,12 +12,16 @@
   &.current-user{
     background: #f2f5fc;
   }
-  span{
-    color: #29343a;
-  }
   .user-card-position{
     color: #a9b5cc;
     margin-right: 5px;
   }
+  .user-card-name{
+    color: #29343a;
+  }
+  .user-card-xp{
+    color: #ffc71e;
+  }
+
 
 }
