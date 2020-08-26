@@ -1,12 +1,13 @@
 .header {
   background: #fff1c7;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   .header-title{
-    font-size: 35px;
+    font-size: 20px;
     color: #e47a00;
     margin: 0;
-    padding-left: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
   }
 }
