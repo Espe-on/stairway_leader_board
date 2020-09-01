@@ -1,30 +1,30 @@
-#Stairway Leaderboard
+# Stairway Leaderboard
 This is a small app created for Stairway's Junior Front-End tech test. 
 It is a React App which uses Typescript and SCSS. 
 It takes data from Stairways's [test API](https://www.stairwaylearning.com/api/v1/stub/leaderboard)   
 
-##Code Structure 
+## Code Structure 
 This is a pure Single Page app meaning there is no need for separating out "pages". 
 Components live as sub directories of /components. 
 Inside each directory there is the main component, and the associated style sheet.  
 
-##Types and Interfaces
+## Types and Interfaces
 Where a definition is used across the app it is stored as a type in the /models directory. 
 Otherwise, it is stored in the component which uses it.  
 
 
-##Styling
+## Styling
 Styling for this side is based off the Figma guidelines [here](https://www.figma.com/file/9qSLmzKSmHaTbs3PAOubUF/Dev-Test-Leaderboard?node-id=0%3A1).
 The styling works on Flexboxes meaning that it scales to the screen it is on.  
 
-#Notes on task
+# Notes on task
 If given a larger number of users from the API I would extend this app with a stepper or loader to put users on multiple leaderboard pages. 
 I would also work on handling error from the API in a more graceful way, and auto updating when the new leaderboard is published. 
 
 
 
 
-#Scripts and info
+# Scripts and info
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
